@@ -1,0 +1,930 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '--save-exact',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'react-scripts',
+1 verbose cli   'cra-template-typescript' ]
+2 info using npm@6.13.4
+3 info using node@v10.19.0
+4 verbose npm-session ba27bba49809dee4
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/react 1190ms
+8 http fetch GET 304 https://registry.npmjs.org/react-scripts 1189ms (from cache)
+9 silly pacote tag manifest for react@latest fetched in 1302ms
+10 silly pacote tag manifest for react-scripts@latest fetched in 1262ms
+11 http fetch GET 304 https://registry.npmjs.org/cra-template-typescript 1476ms (from cache)
+12 silly pacote tag manifest for cra-template-typescript@latest fetched in 1522ms
+13 http fetch GET 304 https://registry.npmjs.org/react-dom 1529ms (from cache)
+14 silly pacote tag manifest for react-dom@latest fetched in 1593ms
+15 timing stage:loadCurrentTree Completed in 1856ms
+16 silly install loadIdealTree
+17 silly install cloneCurrentTreeToIdealTree
+18 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+19 silly install loadShrinkwrap
+20 timing stage:loadIdealTree:loadShrinkwrap Completed in 11ms
+21 silly install loadAllDepsIntoIdealTree
+22 silly resolveWithNewModule react@16.13.1 checking installable status
+23 silly resolveWithNewModule react-scripts@3.4.1 checking installable status
+24 silly resolveWithNewModule cra-template-typescript@1.0.3 checking installable status
+25 silly resolveWithNewModule react-dom@16.13.1 checking installable status
+26 http fetch GET 304 https://registry.npmjs.org/loose-envify 359ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/prop-types 352ms (from cache)
+28 silly pacote range manifest for loose-envify@^1.1.0 fetched in 401ms
+29 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+30 silly pacote range manifest for prop-types@^15.6.2 fetched in 428ms
+31 silly resolveWithNewModule prop-types@15.7.2 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/object-assign 532ms (from cache)
+33 silly pacote range manifest for object-assign@^4.1.1 fetched in 581ms
+34 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/js-tokens 355ms (from cache)
+36 silly pacote range manifest for js-tokens@^3.0.0 || ^4.0.0 fetched in 404ms
+37 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/react-is 258ms (from cache)
+39 silly pacote range manifest for react-is@^16.8.1 fetched in 292ms
+40 silly resolveWithNewModule react-is@16.13.1 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/scheduler 257ms (from cache)
+42 silly pacote range manifest for scheduler@^0.19.1 fetched in 293ms
+43 silly resolveWithNewModule scheduler@0.19.1 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/babel-loader 1709ms (from cache)
+45 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 1735ms
+46 http fetch GET 304 https://registry.npmjs.org/babel-eslint 2012ms (from cache)
+47 http fetch GET 304 https://registry.npmjs.org/@babel%2fcore 2042ms (from cache)
+48 http fetch GET 304 https://registry.npmjs.org/@svgr%2fwebpack 2049ms (from cache)
+49 silly pacote version manifest for babel-loader@8.1.0 fetched in 2063ms
+50 silly resolveWithNewModule babel-loader@8.1.0 checking installable status
+51 http fetch GET 304 https://registry.npmjs.org/camelcase 2065ms (from cache)
+52 silly pacote range manifest for @typescript-eslint/eslint-plugin@^2.10.0 fetched in 2140ms
+53 silly resolveWithNewModule @typescript-eslint/eslint-plugin@2.34.0 checking installable status
+54 silly pacote version manifest for @babel/core@7.9.0 fetched in 2170ms
+55 silly resolveWithNewModule @babel/core@7.9.0 checking installable status
+56 silly pacote version manifest for babel-eslint@10.1.0 fetched in 2163ms
+57 silly resolveWithNewModule babel-eslint@10.1.0 checking installable status
+58 silly pacote version manifest for @svgr/webpack@4.3.3 fetched in 2213ms
+59 silly resolveWithNewModule @svgr/webpack@4.3.3 checking installable status
+60 http fetch GET 304 https://registry.npmjs.org/babel-plugin-named-asset-import 2226ms (from cache)
+61 silly pacote range manifest for camelcase@^5.3.1 fetched in 2221ms
+62 silly resolveWithNewModule camelcase@5.3.1 checking installable status
+63 http fetch GET 304 https://registry.npmjs.org/babel-preset-react-app 2390ms (from cache)
+64 silly pacote range manifest for babel-plugin-named-asset-import@^0.3.6 fetched in 2564ms
+65 silly resolveWithNewModule babel-plugin-named-asset-import@0.3.6 checking installable status
+66 http fetch GET 304 https://registry.npmjs.org/babel-jest 2719ms (from cache)
+67 silly pacote range manifest for babel-preset-react-app@^9.1.2 fetched in 2806ms
+68 silly resolveWithNewModule babel-preset-react-app@9.1.2 checking installable status
+69 silly pacote range manifest for babel-jest@^24.9.0 fetched in 2932ms
+70 silly resolveWithNewModule babel-jest@24.9.0 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/case-sensitive-paths-webpack-plugin 1151ms (from cache)
+72 silly pacote version manifest for case-sensitive-paths-webpack-plugin@2.3.0 fetched in 1248ms
+73 silly resolveWithNewModule case-sensitive-paths-webpack-plugin@2.3.0 checking installable status
+74 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fparser 3425ms
+75 http fetch GET 304 https://registry.npmjs.org/dotenv 1409ms (from cache)
+76 http fetch GET 304 https://registry.npmjs.org/dotenv-expand 1418ms (from cache)
+77 silly pacote version manifest for dotenv@8.2.0 fetched in 1672ms
+78 silly resolveWithNewModule dotenv@8.2.0 checking installable status
+79 http fetch GET 304 https://registry.npmjs.org/css-loader 1848ms (from cache)
+80 silly pacote range manifest for @typescript-eslint/parser@^2.10.0 fetched in 4081ms
+81 silly resolveWithNewModule @typescript-eslint/parser@2.34.0 checking installable status
+82 silly pacote version manifest for dotenv-expand@5.1.0 fetched in 1932ms
+83 silly resolveWithNewModule dotenv-expand@5.1.0 checking installable status
+84 http fetch GET 304 https://registry.npmjs.org/eslint-loader 1555ms (from cache)
+85 silly pacote version manifest for css-loader@3.4.2 fetched in 1999ms
+86 silly resolveWithNewModule css-loader@3.4.2 checking installable status
+87 http fetch GET 304 https://registry.npmjs.org/eslint-config-react-app 2002ms (from cache)
+88 silly pacote version manifest for eslint-loader@3.0.3 fetched in 1784ms
+89 silly resolveWithNewModule eslint-loader@3.0.3 checking installable status
+90 silly pacote range manifest for eslint-config-react-app@^5.2.1 fetched in 2218ms
+91 silly resolveWithNewModule eslint-config-react-app@5.2.1 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/eslint-plugin-import 1591ms (from cache)
+93 http fetch GET 304 https://registry.npmjs.org/eslint-plugin-jsx-a11y 1276ms (from cache)
+94 http fetch GET 304 https://registry.npmjs.org/eslint-plugin-flowtype 1780ms (from cache)
+95 silly pacote version manifest for eslint-plugin-import@2.20.1 fetched in 1764ms
+96 silly resolveWithNewModule eslint-plugin-import@2.20.1 checking installable status
+97 silly pacote version manifest for eslint-plugin-jsx-a11y@6.2.3 fetched in 1432ms
+98 silly resolveWithNewModule eslint-plugin-jsx-a11y@6.2.3 checking installable status
+99 silly pacote version manifest for eslint-plugin-flowtype@4.6.0 fetched in 1948ms
+100 silly resolveWithNewModule eslint-plugin-flowtype@4.6.0 checking installable status
+101 http fetch GET 304 https://registry.npmjs.org/eslint 2861ms (from cache)
+102 silly pacote range manifest for eslint@^6.6.0 fetched in 3009ms
+103 silly resolveWithNewModule eslint@6.8.0 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/eslint-plugin-react 1446ms (from cache)
+105 http fetch GET 304 https://registry.npmjs.org/file-loader 1318ms (from cache)
+106 silly pacote version manifest for eslint-plugin-react@7.19.0 fetched in 1605ms
+107 silly resolveWithNewModule eslint-plugin-react@7.19.0 checking installable status
+108 http fetch GET 304 https://registry.npmjs.org/fs-extra 1341ms (from cache)
+109 silly pacote version manifest for file-loader@4.3.0 fetched in 1518ms
+110 silly resolveWithNewModule file-loader@4.3.0 checking installable status
+111 silly pacote range manifest for fs-extra@^8.1.0 fetched in 1484ms
+112 silly resolveWithNewModule fs-extra@8.1.0 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/eslint-plugin-react-hooks 1577ms (from cache)
+114 http fetch GET 304 https://registry.npmjs.org/html-webpack-plugin 1692ms (from cache)
+115 http fetch GET 304 https://registry.npmjs.org/jest-environment-jsdom-fourteen 1668ms (from cache)
+116 silly pacote range manifest for eslint-plugin-react-hooks@^1.6.1 fetched in 2363ms
+117 silly resolveWithNewModule eslint-plugin-react-hooks@1.7.0 checking installable status
+118 http fetch GET 304 https://registry.npmjs.org/identity-obj-proxy 2306ms (from cache)
+119 silly pacote version manifest for html-webpack-plugin@4.0.0-beta.11 fetched in 2561ms
+120 silly resolveWithNewModule html-webpack-plugin@4.0.0-beta.11 checking installable status
+121 silly pacote version manifest for jest-environment-jsdom-fourteen@1.0.1 fetched in 2510ms
+122 silly resolveWithNewModule jest-environment-jsdom-fourteen@1.0.1 checking installable status
+123 silly pacote version manifest for identity-obj-proxy@3.0.0 fetched in 2874ms
+124 silly resolveWithNewModule identity-obj-proxy@3.0.0 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/jest-resolve 2771ms (from cache)
+126 http fetch GET 304 https://registry.npmjs.org/jest 3010ms (from cache)
+127 http fetch GET 304 https://registry.npmjs.org/mini-css-extract-plugin 2323ms (from cache)
+128 silly pacote version manifest for jest-resolve@24.9.0 fetched in 3446ms
+129 silly resolveWithNewModule jest-resolve@24.9.0 checking installable status
+130 http fetch GET 304 https://registry.npmjs.org/jest-watch-typeahead 3103ms (from cache)
+131 silly pacote version manifest for jest@24.9.0 fetched in 3613ms
+132 silly resolveWithNewModule jest@24.9.0 checking installable status
+133 silly pacote version manifest for mini-css-extract-plugin@0.9.0 fetched in 2936ms
+134 silly resolveWithNewModule mini-css-extract-plugin@0.9.0 checking installable status
+135 http fetch GET 304 https://registry.npmjs.org/pnp-webpack-plugin 2751ms (from cache)
+136 http fetch GET 304 https://registry.npmjs.org/optimize-css-assets-webpack-plugin 2870ms (from cache)
+137 silly pacote version manifest for jest-watch-typeahead@0.4.2 fetched in 3439ms
+138 silly resolveWithNewModule jest-watch-typeahead@0.4.2 checking installable status
+139 silly pacote version manifest for pnp-webpack-plugin@1.6.4 fetched in 3361ms
+140 silly resolveWithNewModule pnp-webpack-plugin@1.6.4 checking installable status
+141 silly pacote version manifest for optimize-css-assets-webpack-plugin@5.0.3 fetched in 3558ms
+142 silly resolveWithNewModule optimize-css-assets-webpack-plugin@5.0.3 checking installable status
+143 http fetch GET 304 https://registry.npmjs.org/postcss-flexbugs-fixes 2823ms (from cache)
+144 http fetch GET 304 https://registry.npmjs.org/postcss-normalize 2272ms (from cache)
+145 http fetch GET 304 https://registry.npmjs.org/postcss-loader 2680ms (from cache)
+146 silly pacote version manifest for postcss-flexbugs-fixes@4.1.0 fetched in 3312ms
+147 silly resolveWithNewModule postcss-flexbugs-fixes@4.1.0 checking installable status
+148 silly pacote version manifest for postcss-normalize@8.0.1 fetched in 2710ms
+149 silly resolveWithNewModule postcss-normalize@8.0.1 checking installable status
+150 silly pacote version manifest for postcss-loader@3.0.0 fetched in 3072ms
+151 silly resolveWithNewModule postcss-loader@3.0.0 checking installable status
+152 http fetch GET 304 https://registry.npmjs.org/postcss-preset-env 3008ms (from cache)
+153 http fetch GET 304 https://registry.npmjs.org/postcss-safe-parser 2411ms (from cache)
+154 silly pacote version manifest for postcss-preset-env@6.7.0 fetched in 3375ms
+155 silly resolveWithNewModule postcss-preset-env@6.7.0 checking installable status
+156 http fetch GET 304 https://registry.npmjs.org/react-app-polyfill 2596ms (from cache)
+157 silly pacote version manifest for postcss-safe-parser@4.0.1 fetched in 2848ms
+158 silly resolveWithNewModule postcss-safe-parser@4.0.1 checking installable status
+159 silly pacote range manifest for react-app-polyfill@^1.0.6 fetched in 2910ms
+160 silly resolveWithNewModule react-app-polyfill@1.0.6 checking installable status
+161 http fetch GET 304 https://registry.npmjs.org/resolve 2734ms (from cache)
+162 http fetch GET 304 https://registry.npmjs.org/resolve-url-loader 2398ms (from cache)
+163 http fetch GET 304 https://registry.npmjs.org/react-dev-utils 3112ms (from cache)
+164 silly pacote version manifest for resolve@1.15.0 fetched in 2916ms
+165 silly resolveWithNewModule resolve@1.15.0 checking installable status
+166 http fetch GET 304 https://registry.npmjs.org/sass-loader 2531ms (from cache)
+167 silly pacote version manifest for resolve-url-loader@3.1.1 fetched in 2846ms
+168 silly resolveWithNewModule resolve-url-loader@3.1.1 checking installable status
+169 silly pacote range manifest for react-dev-utils@^10.2.1 fetched in 3537ms
+170 silly resolveWithNewModule react-dev-utils@10.2.1 checking installable status
+171 silly pacote version manifest for sass-loader@8.0.2 fetched in 2967ms
+172 silly resolveWithNewModule sass-loader@8.0.2 checking installable status
+173 http fetch GET 304 https://registry.npmjs.org/style-loader 2410ms (from cache)
+174 http fetch GET 304 https://registry.npmjs.org/semver 2660ms (from cache)
+175 silly pacote version manifest for style-loader@0.23.1 fetched in 2612ms
+176 silly resolveWithNewModule style-loader@0.23.1 checking installable status
+177 http fetch GET 304 https://registry.npmjs.org/terser-webpack-plugin 2686ms (from cache)
+178 silly pacote version manifest for semver@6.3.0 fetched in 2980ms
+179 silly resolveWithNewModule semver@6.3.0 checking installable status
+180 http fetch GET 304 https://registry.npmjs.org/ts-pnp 2087ms (from cache)
+181 http fetch GET 304 https://registry.npmjs.org/url-loader 1883ms (from cache)
+182 silly pacote version manifest for terser-webpack-plugin@2.3.5 fetched in 2992ms
+183 silly resolveWithNewModule terser-webpack-plugin@2.3.5 checking installable status
+184 silly pacote version manifest for ts-pnp@1.1.6 fetched in 2546ms
+185 silly resolveWithNewModule ts-pnp@1.1.6 checking installable status
+186 silly pacote version manifest for url-loader@2.3.0 fetched in 2389ms
+187 silly resolveWithNewModule url-loader@2.3.0 checking installable status
+188 http fetch GET 304 https://registry.npmjs.org/webpack-dev-server 2135ms (from cache)
+189 http fetch GET 304 https://registry.npmjs.org/webpack-manifest-plugin 1891ms (from cache)
+190 http fetch GET 304 https://registry.npmjs.org/workbox-webpack-plugin 1843ms (from cache)
+191 http fetch GET 304 https://registry.npmjs.org/fsevents 1663ms (from cache)
+192 silly pacote version manifest for webpack-dev-server@3.10.3 fetched in 2276ms
+193 silly resolveWithNewModule webpack-dev-server@3.10.3 checking installable status
+194 http fetch GET 304 https://registry.npmjs.org/webpack 2644ms (from cache)
+195 silly pacote version manifest for webpack-manifest-plugin@2.2.0 fetched in 2137ms
+196 silly resolveWithNewModule webpack-manifest-plugin@2.2.0 checking installable status
+197 silly pacote version manifest for workbox-webpack-plugin@4.3.1 fetched in 2087ms
+198 silly resolveWithNewModule workbox-webpack-plugin@4.3.1 checking installable status
+199 silly pacote version manifest for fsevents@2.1.2 fetched in 1850ms
+200 silly resolveWithNewModule fsevents@2.1.2 checking installable status
+201 silly pacote version manifest for webpack@4.42.0 fetched in 2807ms
+202 silly resolveWithNewModule webpack@4.42.0 checking installable status
+203 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelpers 1584ms (from cache)
+204 http fetch GET 304 https://registry.npmjs.org/@babel%2fgenerator 1678ms (from cache)
+205 http fetch GET 304 https://registry.npmjs.org/@babel%2fcode-frame 1693ms (from cache)
+206 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-module-transforms 1757ms (from cache)
+207 http fetch GET 304 https://registry.npmjs.org/@babel%2ftemplate 1742ms (from cache)
+208 silly pacote range manifest for @babel/helpers@^7.9.0 fetched in 1812ms
+209 silly resolveWithNewModule @babel/helpers@7.10.4 checking installable status
+210 silly pacote range manifest for @babel/generator@^7.9.0 fetched in 1817ms
+211 silly resolveWithNewModule @babel/generator@7.10.5 checking installable status
+212 silly pacote range manifest for @babel/code-frame@^7.8.3 fetched in 1915ms
+213 silly resolveWithNewModule @babel/code-frame@7.10.4 checking installable status
+214 silly pacote range manifest for @babel/helper-module-transforms@^7.9.0 fetched in 1916ms
+215 silly resolveWithNewModule @babel/helper-module-transforms@7.10.5 checking installable status
+216 http fetch GET 304 https://registry.npmjs.org/debug 1894ms (from cache)
+217 http fetch GET 304 https://registry.npmjs.org/convert-source-map 1945ms (from cache)
+218 http fetch GET 304 https://registry.npmjs.org/@babel%2ftypes 1959ms (from cache)
+219 silly pacote range manifest for @babel/template@^7.8.6 fetched in 2028ms
+220 silly resolveWithNewModule @babel/template@7.10.4 checking installable status
+221 http fetch GET 304 https://registry.npmjs.org/@babel%2fparser 2223ms (from cache)
+222 silly pacote range manifest for semver@^5.4.1 fetched in 388ms
+223 silly resolveWithNewModule semver@5.7.1 checking installable status
+224 silly pacote range manifest for convert-source-map@^1.7.0 fetched in 2295ms
+225 silly resolveWithNewModule convert-source-map@1.7.0 checking installable status
+226 silly pacote range manifest for debug@^4.1.0 fetched in 2336ms
+227 silly resolveWithNewModule debug@4.1.1 checking installable status
+228 http fetch GET 304 https://registry.npmjs.org/@babel%2ftraverse 2349ms (from cache)
+229 silly pacote range manifest for @babel/types@^7.9.0 fetched in 2418ms
+230 silly resolveWithNewModule @babel/types@7.10.5 checking installable status
+231 silly pacote range manifest for @babel/parser@^7.9.0 fetched in 2446ms
+232 silly resolveWithNewModule @babel/parser@7.10.5 checking installable status
+233 silly pacote range manifest for @babel/traverse@^7.9.0 fetched in 2553ms
+234 silly resolveWithNewModule @babel/traverse@7.10.5 checking installable status
+235 http fetch GET 304 https://registry.npmjs.org/json5 832ms (from cache)
+236 http fetch GET 304 https://registry.npmjs.org/gensync 870ms (from cache)
+237 silly pacote range manifest for json5@^2.1.2 fetched in 897ms
+238 silly resolveWithNewModule json5@2.1.3 checking installable status
+239 silly pacote range manifest for gensync@^1.0.0-beta.1 fetched in 947ms
+240 silly resolveWithNewModule gensync@1.0.0-beta.1 checking installable status
+241 http fetch GET 304 https://registry.npmjs.org/source-map 869ms (from cache)
+242 http fetch GET 304 https://registry.npmjs.org/lodash 1036ms (from cache)
+243 silly pacote range manifest for source-map@^0.5.0 fetched in 928ms
+244 silly resolveWithNewModule source-map@0.5.7 checking installable status
+245 silly pacote range manifest for lodash@^4.17.13 fetched in 1094ms
+246 silly resolveWithNewModule lodash@4.17.19 checking installable status
+247 http fetch GET 304 https://registry.npmjs.org/@babel%2fhighlight 411ms (from cache)
+248 silly pacote range manifest for @babel/highlight@^7.10.4 fetched in 467ms
+249 silly resolveWithNewModule @babel/highlight@7.10.4 checking installable status
+250 http fetch GET 304 https://registry.npmjs.org/chalk 342ms (from cache)
+251 silly pacote range manifest for chalk@^2.0.0 fetched in 387ms
+252 silly resolveWithNewModule chalk@2.4.2 checking installable status
+253 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 537ms (from cache)
+254 silly pacote range manifest for @babel/helper-validator-identifier@^7.10.4 fetched in 669ms
+255 silly resolveWithNewModule @babel/helper-validator-identifier@7.10.4 checking installable status
+256 http fetch GET 304 https://registry.npmjs.org/ansi-styles 489ms (from cache)
+257 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 583ms (from cache)
+258 silly pacote range manifest for ansi-styles@^3.2.1 fetched in 616ms
+259 silly resolveWithNewModule ansi-styles@3.2.1 checking installable status
+260 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 633ms
+261 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+262 http fetch GET 304 https://registry.npmjs.org/supports-color 715ms (from cache)
+263 silly pacote range manifest for supports-color@^5.3.0 fetched in 824ms
+264 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+265 http fetch GET 304 https://registry.npmjs.org/color-convert 575ms (from cache)
+266 silly pacote range manifest for color-convert@^1.9.0 fetched in 659ms
+267 silly resolveWithNewModule color-convert@1.9.3 checking installable status
+268 http fetch GET 304 https://registry.npmjs.org/color-name 254ms (from cache)
+269 silly pacote version manifest for color-name@1.1.3 fetched in 300ms
+270 silly resolveWithNewModule color-name@1.1.3 checking installable status
+271 http fetch GET 304 https://registry.npmjs.org/has-flag 439ms (from cache)
+272 silly pacote range manifest for has-flag@^3.0.0 fetched in 474ms
+273 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+274 http fetch GET 304 https://registry.npmjs.org/jsesc 567ms (from cache)
+275 silly pacote range manifest for jsesc@^2.5.1 fetched in 643ms
+276 silly resolveWithNewModule jsesc@2.5.2 checking installable status
+277 http fetch GET 304 https://registry.npmjs.org/to-fast-properties 307ms (from cache)
+278 silly pacote range manifest for to-fast-properties@^2.0.0 fetched in 353ms
+279 silly resolveWithNewModule to-fast-properties@2.0.0 checking installable status
+280 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-simple-access 632ms (from cache)
+281 silly pacote range manifest for @babel/helper-simple-access@^7.10.4 fetched in 687ms
+282 silly resolveWithNewModule @babel/helper-simple-access@7.10.4 checking installable status
+283 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-module-imports 713ms (from cache)
+284 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-replace-supers 748ms (from cache)
+285 silly pacote range manifest for @babel/helper-module-imports@^7.10.4 fetched in 787ms
+286 silly resolveWithNewModule @babel/helper-module-imports@7.10.4 checking installable status
+287 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-split-export-declaration 818ms (from cache)
+288 silly pacote range manifest for @babel/helper-replace-supers@^7.10.4 fetched in 846ms
+289 silly resolveWithNewModule @babel/helper-replace-supers@7.10.4 checking installable status
+290 silly pacote range manifest for @babel/helper-split-export-declaration@^7.10.4 fetched in 861ms
+291 silly resolveWithNewModule @babel/helper-split-export-declaration@7.10.4 checking installable status
+292 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-member-expression-to-functions 270ms (from cache)
+293 silly pacote range manifest for @babel/helper-member-expression-to-functions@^7.10.4 fetched in 321ms
+294 silly resolveWithNewModule @babel/helper-member-expression-to-functions@7.10.5 checking installable status
+295 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-optimise-call-expression 349ms (from cache)
+296 silly pacote range manifest for @babel/helper-optimise-call-expression@^7.10.4 fetched in 383ms
+297 silly resolveWithNewModule @babel/helper-optimise-call-expression@7.10.4 checking installable status
+298 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-function-name 318ms (from cache)
+299 silly pacote range manifest for @babel/helper-function-name@^7.10.4 fetched in 400ms
+300 silly resolveWithNewModule @babel/helper-function-name@7.10.4 checking installable status
+301 http fetch GET 304 https://registry.npmjs.org/globals 517ms (from cache)
+302 silly pacote range manifest for globals@^11.1.0 fetched in 556ms
+303 silly resolveWithNewModule globals@11.12.0 checking installable status
+304 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-get-function-arity 421ms (from cache)
+305 silly pacote range manifest for @babel/helper-get-function-arity@^7.10.4 fetched in 459ms
+306 silly resolveWithNewModule @babel/helper-get-function-arity@7.10.4 checking installable status
+307 http fetch GET 304 https://registry.npmjs.org/ms 325ms (from cache)
+308 silly pacote range manifest for ms@^2.1.1 fetched in 367ms
+309 silly resolveWithNewModule ms@2.1.2 checking installable status
+310 http fetch GET 304 https://registry.npmjs.org/safe-buffer 327ms (from cache)
+311 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 373ms
+312 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+313 http fetch GET 304 https://registry.npmjs.org/minimist 246ms (from cache)
+314 silly pacote range manifest for minimist@^1.2.5 fetched in 308ms
+315 silly resolveWithNewModule minimist@1.2.5 checking installable status
+316 http fetch GET 304 https://registry.npmjs.org/path-parse 207ms (from cache)
+317 silly pacote range manifest for path-parse@^1.0.6 fetched in 250ms
+318 silly resolveWithNewModule path-parse@1.0.6 checking installable status
+319 http fetch GET 304 https://registry.npmjs.org/@svgr%2fplugin-jsx 1348ms (from cache)
+320 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-constant-elements 1502ms (from cache)
+321 http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-react 1504ms (from cache)
+322 silly pacote range manifest for @svgr/plugin-jsx@^4.3.3 fetched in 1560ms
+323 silly resolveWithNewModule @svgr/plugin-jsx@4.3.3 checking installable status
+324 silly pacote range manifest for @babel/plugin-transform-react-constant-elements@^7.0.0 fetched in 1571ms
+325 silly resolveWithNewModule @babel/plugin-transform-react-constant-elements@7.10.4 checking installable status
+326 http fetch GET 304 https://registry.npmjs.org/@svgr%2fplugin-svgo 1560ms (from cache)
+327 silly pacote range manifest for @babel/preset-react@^7.0.0 fetched in 1584ms
+328 silly resolveWithNewModule @babel/preset-react@7.10.4 checking installable status
+329 http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-env 1601ms (from cache)
+330 http fetch GET 304 https://registry.npmjs.org/loader-utils 1635ms (from cache)
+331 silly pacote range manifest for @svgr/plugin-svgo@^4.3.1 fetched in 1653ms
+332 silly resolveWithNewModule @svgr/plugin-svgo@4.3.1 checking installable status
+333 silly pacote range manifest for @babel/preset-env@^7.4.5 fetched in 1785ms
+334 silly resolveWithNewModule @babel/preset-env@7.10.4 checking installable status
+335 http fetch GET 304 https://registry.npmjs.org/@svgr%2fcore 1980ms (from cache)
+336 silly pacote range manifest for loader-utils@^1.2.3 fetched in 1987ms
+337 silly resolveWithNewModule loader-utils@1.4.0 checking installable status
+338 silly pacote range manifest for @svgr/core@^4.3.3 fetched in 2064ms
+339 silly resolveWithNewModule @svgr/core@4.3.3 checking installable status
+340 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-plugin-utils 434ms (from cache)
+341 silly pacote range manifest for @babel/helper-plugin-utils@^7.10.4 fetched in 500ms
+342 silly resolveWithNewModule @babel/helper-plugin-utils@7.10.4 checking installable status
+343 http fetch GET 304 https://registry.npmjs.org/@babel%2fcompat-data 2067ms (from cache)
+344 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-dynamic-import 2185ms (from cache)
+345 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-class-properties 2189ms (from cache)
+346 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-compilation-targets 2237ms (from cache)
+347 silly pacote range manifest for @babel/compat-data@^7.10.4 fetched in 2304ms
+348 silly resolveWithNewModule @babel/compat-data@7.10.5 checking installable status
+349 silly pacote range manifest for @babel/plugin-proposal-dynamic-import@^7.10.4 fetched in 2342ms
+350 silly resolveWithNewModule @babel/plugin-proposal-dynamic-import@7.10.4 checking installable status
+351 silly pacote range manifest for @babel/plugin-proposal-class-properties@^7.10.4 fetched in 2431ms
+352 silly resolveWithNewModule @babel/plugin-proposal-class-properties@7.10.4 checking installable status
+353 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-async-generator-functions 2434ms (from cache)
+354 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-nullish-coalescing-operator 2449ms (from cache)
+355 silly pacote range manifest for @babel/helper-compilation-targets@^7.10.4 fetched in 2479ms
+356 silly resolveWithNewModule @babel/helper-compilation-targets@7.10.4 checking installable status
+357 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-numeric-separator 2465ms (from cache)
+358 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-json-strings 2585ms (from cache)
+359 silly pacote range manifest for @babel/plugin-proposal-async-generator-functions@^7.10.4 fetched in 2658ms
+360 silly resolveWithNewModule @babel/plugin-proposal-async-generator-functions@7.10.5 checking installable status
+361 silly pacote range manifest for @babel/plugin-proposal-nullish-coalescing-operator@^7.10.4 fetched in 2684ms
+362 silly resolveWithNewModule @babel/plugin-proposal-nullish-coalescing-operator@7.10.4 checking installable status
+363 silly pacote range manifest for @babel/plugin-proposal-numeric-separator@^7.10.4 fetched in 2762ms
+364 silly resolveWithNewModule @babel/plugin-proposal-numeric-separator@7.10.4 checking installable status
+365 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-object-rest-spread 2775ms (from cache)
+366 silly pacote range manifest for @babel/plugin-proposal-json-strings@^7.10.4 fetched in 2886ms
+367 silly resolveWithNewModule @babel/plugin-proposal-json-strings@7.10.4 checking installable status
+368 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-optional-catch-binding 2883ms (from cache)
+369 silly pacote range manifest for @babel/plugin-proposal-object-rest-spread@^7.10.4 fetched in 3180ms
+370 silly resolveWithNewModule @babel/plugin-proposal-object-rest-spread@7.10.4 checking installable status
+371 silly pacote range manifest for @babel/plugin-proposal-optional-catch-binding@^7.10.4 fetched in 3347ms
+372 silly resolveWithNewModule @babel/plugin-proposal-optional-catch-binding@7.10.4 checking installable status
+373 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-private-methods 1461ms (from cache)
+374 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-optional-chaining 1519ms (from cache)
+375 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-async-generators 1428ms (from cache)
+376 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-unicode-property-regex 1487ms (from cache)
+377 silly pacote range manifest for @babel/plugin-proposal-private-methods@^7.10.4 fetched in 1566ms
+378 silly resolveWithNewModule @babel/plugin-proposal-private-methods@7.10.4 checking installable status
+379 silly pacote range manifest for @babel/plugin-proposal-optional-chaining@^7.10.4 fetched in 1626ms
+380 silly resolveWithNewModule @babel/plugin-proposal-optional-chaining@7.10.4 checking installable status
+381 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-dynamic-import 1321ms (from cache)
+382 silly pacote range manifest for @babel/plugin-syntax-async-generators@^7.8.0 fetched in 1561ms
+383 silly resolveWithNewModule @babel/plugin-syntax-async-generators@7.8.4 checking installable status
+384 silly pacote range manifest for @babel/plugin-proposal-unicode-property-regex@^7.10.4 fetched in 1641ms
+385 silly resolveWithNewModule @babel/plugin-proposal-unicode-property-regex@7.10.4 checking installable status
+386 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-nullish-coalescing-operator 1197ms (from cache)
+387 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-class-properties 1442ms (from cache)
+388 silly pacote range manifest for @babel/plugin-syntax-dynamic-import@^7.8.0 fetched in 1467ms
+389 silly resolveWithNewModule @babel/plugin-syntax-dynamic-import@7.8.3 checking installable status
+390 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-json-strings 1390ms (from cache)
+391 silly pacote range manifest for @babel/plugin-syntax-nullish-coalescing-operator@^7.8.0 fetched in 1415ms
+392 silly resolveWithNewModule @babel/plugin-syntax-nullish-coalescing-operator@7.8.3 checking installable status
+393 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-numeric-separator 1127ms (from cache)
+394 silly pacote range manifest for @babel/plugin-syntax-class-properties@^7.10.4 fetched in 1737ms
+395 silly resolveWithNewModule @babel/plugin-syntax-class-properties@7.10.4 checking installable status
+396 silly pacote range manifest for @babel/plugin-syntax-json-strings@^7.8.0 fetched in 1621ms
+397 silly resolveWithNewModule @babel/plugin-syntax-json-strings@7.8.3 checking installable status
+398 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-object-rest-spread 1113ms (from cache)
+399 silly pacote range manifest for @babel/plugin-syntax-numeric-separator@^7.10.4 fetched in 1446ms
+400 silly resolveWithNewModule @babel/plugin-syntax-numeric-separator@7.10.4 checking installable status
+401 silly pacote range manifest for @babel/plugin-syntax-object-rest-spread@^7.8.0 fetched in 1382ms
+402 silly resolveWithNewModule @babel/plugin-syntax-object-rest-spread@7.8.3 checking installable status
+403 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-top-level-await 1215ms (from cache)
+404 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-optional-catch-binding 1381ms (from cache)
+405 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-optional-chaining 1431ms (from cache)
+406 silly pacote range manifest for @babel/plugin-syntax-top-level-await@^7.10.4 fetched in 1345ms
+407 silly resolveWithNewModule @babel/plugin-syntax-top-level-await@7.10.4 checking installable status
+408 silly pacote range manifest for @babel/plugin-syntax-optional-catch-binding@^7.8.0 fetched in 1468ms
+409 silly resolveWithNewModule @babel/plugin-syntax-optional-catch-binding@7.8.3 checking installable status
+410 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-arrow-functions 1356ms (from cache)
+411 silly pacote range manifest for @babel/plugin-syntax-optional-chaining@^7.8.0 fetched in 1546ms
+412 silly resolveWithNewModule @babel/plugin-syntax-optional-chaining@7.8.3 checking installable status
+413 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-async-to-generator 1345ms (from cache)
+414 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions 1225ms (from cache)
+415 silly pacote range manifest for @babel/plugin-transform-arrow-functions@^7.10.4 fetched in 1656ms
+416 silly resolveWithNewModule @babel/plugin-transform-arrow-functions@7.10.4 checking installable status
+417 silly pacote range manifest for @babel/plugin-transform-block-scoped-functions@^7.10.4 fetched in 1417ms
+418 silly resolveWithNewModule @babel/plugin-transform-block-scoped-functions@7.10.4 checking installable status
+419 silly pacote range manifest for @babel/plugin-transform-async-to-generator@^7.10.4 fetched in 1598ms
+420 silly resolveWithNewModule @babel/plugin-transform-async-to-generator@7.10.4 checking installable status
+421 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-classes 1358ms (from cache)
+422 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-computed-properties 1207ms (from cache)
+423 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoping 1504ms (from cache)
+424 silly pacote range manifest for @babel/plugin-transform-classes@^7.10.4 fetched in 1560ms
+425 silly resolveWithNewModule @babel/plugin-transform-classes@7.10.4 checking installable status
+426 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-destructuring 1323ms (from cache)
+427 silly pacote range manifest for @babel/plugin-transform-block-scoping@^7.10.4 fetched in 1689ms
+428 silly resolveWithNewModule @babel/plugin-transform-block-scoping@7.10.5 checking installable status
+429 silly pacote range manifest for @babel/plugin-transform-computed-properties@^7.10.4 fetched in 1480ms
+430 silly resolveWithNewModule @babel/plugin-transform-computed-properties@7.10.4 checking installable status
+431 silly pacote range manifest for @babel/plugin-transform-destructuring@^7.10.4 fetched in 1502ms
+432 silly resolveWithNewModule @babel/plugin-transform-destructuring@7.10.4 checking installable status
+433 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys 1062ms (from cache)
+434 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator 1027ms (from cache)
+435 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex 1119ms (from cache)
+436 silly pacote range manifest for @babel/plugin-transform-duplicate-keys@^7.10.4 fetched in 1181ms
+437 silly resolveWithNewModule @babel/plugin-transform-duplicate-keys@7.10.4 checking installable status
+438 silly pacote range manifest for @babel/plugin-transform-dotall-regex@^7.10.4 fetched in 1223ms
+439 silly resolveWithNewModule @babel/plugin-transform-dotall-regex@7.10.4 checking installable status
+440 silly pacote range manifest for @babel/plugin-transform-exponentiation-operator@^7.10.4 fetched in 1169ms
+441 silly resolveWithNewModule @babel/plugin-transform-exponentiation-operator@7.10.4 checking installable status
+442 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-literals 1164ms (from cache)
+443 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-for-of 1205ms (from cache)
+444 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-function-name 1270ms (from cache)
+445 silly pacote range manifest for @babel/plugin-transform-literals@^7.10.4 fetched in 1336ms
+446 silly resolveWithNewModule @babel/plugin-transform-literals@7.10.4 checking installable status
+447 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals 1147ms (from cache)
+448 silly pacote range manifest for @babel/plugin-transform-for-of@^7.10.4 fetched in 1416ms
+449 silly resolveWithNewModule @babel/plugin-transform-for-of@7.10.4 checking installable status
+450 silly pacote range manifest for @babel/plugin-transform-function-name@^7.10.4 fetched in 1430ms
+451 silly resolveWithNewModule @babel/plugin-transform-function-name@7.10.4 checking installable status
+452 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd 1081ms (from cache)
+453 silly pacote range manifest for @babel/plugin-transform-member-expression-literals@^7.10.4 fetched in 1316ms
+454 silly resolveWithNewModule @babel/plugin-transform-member-expression-literals@7.10.4 checking installable status
+455 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-commonjs 1169ms (from cache)
+456 silly pacote range manifest for @babel/plugin-transform-modules-amd@^7.10.4 fetched in 1260ms
+457 silly resolveWithNewModule @babel/plugin-transform-modules-amd@7.10.5 checking installable status
+458 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs 1166ms (from cache)
+459 silly pacote range manifest for @babel/plugin-transform-modules-commonjs@^7.10.4 fetched in 1367ms
+460 silly resolveWithNewModule @babel/plugin-transform-modules-commonjs@7.10.4 checking installable status
+461 silly pacote range manifest for @babel/plugin-transform-modules-systemjs@^7.10.4 fetched in 1283ms
+462 silly resolveWithNewModule @babel/plugin-transform-modules-systemjs@7.10.5 checking installable status
+463 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd 962ms (from cache)
+464 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-new-target 893ms (from cache)
+465 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-named-capturing-groups-regex 1001ms (from cache)
+466 silly pacote range manifest for @babel/plugin-transform-new-target@^7.10.4 fetched in 1042ms
+467 silly resolveWithNewModule @babel/plugin-transform-new-target@7.10.4 checking installable status
+468 silly pacote range manifest for @babel/plugin-transform-modules-umd@^7.10.4 fetched in 1147ms
+469 silly resolveWithNewModule @babel/plugin-transform-modules-umd@7.10.4 checking installable status
+470 silly pacote range manifest for @babel/plugin-transform-named-capturing-groups-regex@^7.10.4 fetched in 1136ms
+471 silly resolveWithNewModule @babel/plugin-transform-named-capturing-groups-regex@7.10.4 checking installable status
+472 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-object-super 815ms (from cache)
+473 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-parameters 819ms (from cache)
+474 silly pacote range manifest for @babel/plugin-transform-object-super@^7.10.4 fetched in 979ms
+475 silly resolveWithNewModule @babel/plugin-transform-object-super@7.10.4 checking installable status
+476 silly pacote range manifest for @babel/plugin-transform-parameters@^7.10.4 fetched in 979ms
+477 silly resolveWithNewModule @babel/plugin-transform-parameters@7.10.5 checking installable status
+478 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words 845ms (from cache)
+479 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-property-literals 1048ms (from cache)
+480 silly pacote range manifest for @babel/plugin-transform-reserved-words@^7.10.4 fetched in 951ms
+481 silly resolveWithNewModule @babel/plugin-transform-reserved-words@7.10.4 checking installable status
+482 silly pacote range manifest for @babel/plugin-transform-property-literals@^7.10.4 fetched in 1165ms
+483 silly resolveWithNewModule @babel/plugin-transform-property-literals@7.10.4 checking installable status
+484 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-regenerator 1052ms (from cache)
+485 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-spread 867ms (from cache)
+486 silly pacote range manifest for @babel/plugin-transform-regenerator@^7.10.4 fetched in 1172ms
+487 silly resolveWithNewModule @babel/plugin-transform-regenerator@7.10.4 checking installable status
+488 silly pacote range manifest for @babel/plugin-transform-spread@^7.10.4 fetched in 970ms
+489 silly resolveWithNewModule @babel/plugin-transform-spread@7.10.4 checking installable status
+490 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-sticky-regex 865ms (from cache)
+491 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-shorthand-properties 1098ms (from cache)
+492 silly pacote range manifest for @babel/plugin-transform-sticky-regex@^7.10.4 fetched in 997ms
+493 silly resolveWithNewModule @babel/plugin-transform-sticky-regex@7.10.4 checking installable status
+494 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-template-literals 1022ms (from cache)
+495 silly pacote range manifest for @babel/plugin-transform-shorthand-properties@^7.10.4 fetched in 1265ms
+496 silly resolveWithNewModule @babel/plugin-transform-shorthand-properties@7.10.4 checking installable status
+497 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol 1036ms (from cache)
+498 silly pacote range manifest for semver@^5.5.0 fetched in 48ms
+499 silly resolveWithNewModule semver@5.7.1 checking installable status
+500 silly pacote range manifest for @babel/plugin-transform-typeof-symbol@^7.10.4 fetched in 1142ms
+501 silly resolveWithNewModule @babel/plugin-transform-typeof-symbol@7.10.4 checking installable status
+502 silly pacote range manifest for @babel/plugin-transform-template-literals@^7.10.4 fetched in 1173ms
+503 silly resolveWithNewModule @babel/plugin-transform-template-literals@7.10.5 checking installable status
+504 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes 817ms (from cache)
+505 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-regex 778ms (from cache)
+506 silly pacote range manifest for @babel/plugin-transform-unicode-escapes@^7.10.4 fetched in 895ms
+507 silly resolveWithNewModule @babel/plugin-transform-unicode-escapes@7.10.4 checking installable status
+508 silly pacote range manifest for @babel/plugin-transform-unicode-regex@^7.10.4 fetched in 886ms
+509 silly resolveWithNewModule @babel/plugin-transform-unicode-regex@7.10.4 checking installable status
+510 http fetch GET 304 https://registry.npmjs.org/browserslist 718ms (from cache)
+511 http fetch GET 304 https://registry.npmjs.org/core-js-compat 621ms (from cache)
+512 http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-modules 779ms (from cache)
+513 silly pacote range manifest for browserslist@^4.12.0 fetched in 801ms
+514 silly resolveWithNewModule browserslist@4.13.0 checking installable status
+515 http fetch GET 304 https://registry.npmjs.org/levenary 462ms (from cache)
+516 silly pacote range manifest for @babel/preset-modules@^0.1.3 fetched in 877ms
+517 silly resolveWithNewModule @babel/preset-modules@0.1.3 checking installable status
+518 http fetch GET 304 https://registry.npmjs.org/invariant 678ms (from cache)
+519 silly pacote range manifest for core-js-compat@^3.6.2 fetched in 730ms
+520 silly resolveWithNewModule core-js-compat@3.6.5 checking installable status
+521 silly pacote range manifest for levenary@^1.1.1 fetched in 497ms
+522 silly resolveWithNewModule levenary@1.1.1 checking installable status
+523 silly pacote range manifest for invariant@^2.2.2 fetched in 714ms
+524 silly resolveWithNewModule invariant@2.2.4 checking installable status
+525 silly pacote range manifest for semver@^5.5.0 fetched in 25ms
+526 silly resolveWithNewModule semver@5.7.1 checking installable status
+527 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium 735ms
+528 http fetch GET 304 https://registry.npmjs.org/escalade 791ms (from cache)
+529 http fetch GET 304 https://registry.npmjs.org/node-releases 850ms (from cache)
+530 silly pacote range manifest for escalade@^3.0.1 fetched in 901ms
+531 silly resolveWithNewModule escalade@3.0.2 checking installable status
+532 silly pacote range manifest for node-releases@^1.1.58 fetched in 947ms
+533 silly resolveWithNewModule node-releases@1.1.59 checking installable status
+534 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 1000ms
+535 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.504.tgz 227ms
+536 silly pacote range manifest for electron-to-chromium@^1.3.488 fetched in 1133ms
+537 silly resolveWithNewModule electron-to-chromium@1.3.504 checking installable status
+538 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001105.tgz 566ms
+539 silly pacote range manifest for caniuse-lite@^1.0.30001093 fetched in 1650ms
+540 silly resolveWithNewModule caniuse-lite@1.0.30001105 checking installable status
+541 silly pacote range manifest for semver@^5.5.0 fetched in 9ms
+542 silly resolveWithNewModule semver@5.7.1 checking installable status
+543 http fetch GET 304 https://registry.npmjs.org/leven 226ms (from cache)
+544 silly pacote range manifest for leven@^3.1.0 fetched in 286ms
+545 silly resolveWithNewModule leven@3.1.0 checking installable status
+546 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator 314ms (from cache)
+547 silly pacote range manifest for @babel/helper-remap-async-to-generator@^7.10.4 fetched in 388ms
+548 silly resolveWithNewModule @babel/helper-remap-async-to-generator@7.10.4 checking installable status
+549 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure 464ms (from cache)
+550 silly pacote range manifest for @babel/helper-annotate-as-pure@^7.10.4 fetched in 522ms
+551 silly resolveWithNewModule @babel/helper-annotate-as-pure@7.10.4 checking installable status
+552 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-wrap-function 562ms (from cache)
+553 silly pacote range manifest for @babel/helper-wrap-function@^7.10.4 fetched in 606ms
+554 silly resolveWithNewModule @babel/helper-wrap-function@7.10.4 checking installable status
+555 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin 352ms (from cache)
+556 silly pacote range manifest for @babel/helper-create-class-features-plugin@^7.10.4 fetched in 431ms
+557 silly resolveWithNewModule @babel/helper-create-class-features-plugin@7.10.5 checking installable status
+558 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin 489ms (from cache)
+559 silly pacote range manifest for @babel/helper-create-regexp-features-plugin@^7.10.4 fetched in 533ms
+560 silly resolveWithNewModule @babel/helper-create-regexp-features-plugin@7.10.4 checking installable status
+561 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-regex 277ms (from cache)
+562 silly pacote range manifest for @babel/helper-regex@^7.10.4 fetched in 326ms
+563 silly resolveWithNewModule @babel/helper-regex@7.10.5 checking installable status
+564 http fetch GET 304 https://registry.npmjs.org/regexpu-core 403ms (from cache)
+565 silly pacote range manifest for regexpu-core@^4.7.0 fetched in 441ms
+566 silly resolveWithNewModule regexpu-core@4.7.0 checking installable status
+567 http fetch GET 304 https://registry.npmjs.org/regenerate-unicode-properties 1079ms (from cache)
+568 http fetch GET 304 https://registry.npmjs.org/regjsparser 1098ms (from cache)
+569 http fetch GET 304 https://registry.npmjs.org/regenerate 1153ms (from cache)
+570 silly pacote range manifest for regenerate-unicode-properties@^8.2.0 fetched in 1183ms
+571 silly resolveWithNewModule regenerate-unicode-properties@8.2.0 checking installable status
+572 http fetch GET 304 https://registry.npmjs.org/unicode-match-property-value-ecmascript 1183ms (from cache)
+573 silly pacote range manifest for regjsparser@^0.6.4 fetched in 1283ms
+574 silly resolveWithNewModule regjsparser@0.6.4 checking installable status
+575 http fetch GET 304 https://registry.npmjs.org/regjsgen 1310ms (from cache)
+576 http fetch GET 304 https://registry.npmjs.org/unicode-match-property-ecmascript 1310ms (from cache)
+577 silly pacote range manifest for regenerate@^1.4.0 fetched in 1331ms
+578 silly resolveWithNewModule regenerate@1.4.1 checking installable status
+579 silly pacote range manifest for unicode-match-property-value-ecmascript@^1.2.0 fetched in 1330ms
+580 silly resolveWithNewModule unicode-match-property-value-ecmascript@1.2.0 checking installable status
+581 silly pacote range manifest for regjsgen@^0.5.1 fetched in 1446ms
+582 silly resolveWithNewModule regjsgen@0.5.2 checking installable status
+583 silly pacote range manifest for unicode-match-property-ecmascript@^1.0.4 fetched in 1499ms
+584 silly resolveWithNewModule unicode-match-property-ecmascript@1.0.4 checking installable status
+585 silly pacote range manifest for jsesc@~0.5.0 fetched in 36ms
+586 silly resolveWithNewModule jsesc@0.5.0 checking installable status
+587 http fetch GET 304 https://registry.npmjs.org/unicode-property-aliases-ecmascript 339ms (from cache)
+588 silly pacote range manifest for unicode-property-aliases-ecmascript@^1.0.4 fetched in 449ms
+589 silly resolveWithNewModule unicode-property-aliases-ecmascript@1.1.0 checking installable status
+590 http fetch GET 304 https://registry.npmjs.org/unicode-canonical-property-names-ecmascript 559ms (from cache)
+591 silly pacote range manifest for unicode-canonical-property-names-ecmascript@^1.0.4 fetched in 636ms
+592 silly resolveWithNewModule unicode-canonical-property-names-ecmascript@1.0.4 checking installable status
+593 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-define-map 533ms (from cache)
+594 silly pacote range manifest for @babel/helper-define-map@^7.10.4 fetched in 571ms
+595 silly resolveWithNewModule @babel/helper-define-map@7.10.5 checking installable status
+596 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor 394ms (from cache)
+597 silly pacote range manifest for @babel/helper-builder-binary-assignment-operator-visitor@^7.10.4 fetched in 432ms
+598 silly resolveWithNewModule @babel/helper-builder-binary-assignment-operator-visitor@7.10.4 checking installable status
+599 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-explode-assignable-expression 247ms (from cache)
+600 silly pacote range manifest for @babel/helper-explode-assignable-expression@^7.10.4 fetched in 283ms
+601 silly resolveWithNewModule @babel/helper-explode-assignable-expression@7.10.4 checking installable status
+602 http fetch GET 304 https://registry.npmjs.org/babel-plugin-dynamic-import-node 215ms (from cache)
+603 silly pacote range manifest for babel-plugin-dynamic-import-node@^2.3.3 fetched in 267ms
+604 silly resolveWithNewModule babel-plugin-dynamic-import-node@2.3.3 checking installable status
+605 http fetch GET 304 https://registry.npmjs.org/object.assign 232ms (from cache)
+606 silly pacote range manifest for object.assign@^4.1.0 fetched in 270ms
+607 silly resolveWithNewModule object.assign@4.1.0 checking installable status
+608 http fetch GET 304 https://registry.npmjs.org/has-symbols 512ms (from cache)
+609 http fetch GET 304 https://registry.npmjs.org/define-properties 551ms (from cache)
+610 silly pacote range manifest for has-symbols@^1.0.0 fetched in 572ms
+611 silly resolveWithNewModule has-symbols@1.0.1 checking installable status
+612 silly pacote range manifest for define-properties@^1.1.2 fetched in 596ms
+613 silly resolveWithNewModule define-properties@1.1.3 checking installable status
+614 http fetch GET 304 https://registry.npmjs.org/function-bind 650ms (from cache)
+615 http fetch GET 304 https://registry.npmjs.org/object-keys 666ms (from cache)
+616 silly pacote range manifest for function-bind@^1.1.1 fetched in 690ms
+617 silly resolveWithNewModule function-bind@1.1.1 checking installable status
+618 silly pacote range manifest for object-keys@^1.0.11 fetched in 697ms
+619 silly resolveWithNewModule object-keys@1.1.1 checking installable status
+620 http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-hoist-variables 245ms (from cache)
+621 silly pacote range manifest for @babel/helper-hoist-variables@^7.10.4 fetched in 284ms
+622 silly resolveWithNewModule @babel/helper-hoist-variables@7.10.4 checking installable status
+623 http fetch GET 304 https://registry.npmjs.org/regenerator-transform 268ms (from cache)
+624 silly pacote range manifest for regenerator-transform@^0.14.2 fetched in 350ms
+625 silly resolveWithNewModule regenerator-transform@0.14.5 checking installable status
+626 http fetch GET 304 https://registry.npmjs.org/@babel%2fruntime 459ms (from cache)
+627 silly pacote range manifest for @babel/runtime@^7.8.4 fetched in 510ms
+628 silly resolveWithNewModule @babel/runtime@7.10.5 checking installable status
+629 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 217ms
+630 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.6.tgz 251ms
+631 silly pacote range manifest for regenerator-runtime@^0.13.4 fetched in 543ms
+632 silly resolveWithNewModule regenerator-runtime@0.13.6 checking installable status
+633 http fetch GET 304 https://registry.npmjs.org/esutils 348ms (from cache)
+634 silly pacote range manifest for esutils@^2.0.2 fetched in 381ms
+635 silly resolveWithNewModule esutils@2.0.3 checking installable status
+636 silly pacote version manifest for semver@7.0.0 fetched in 46ms
+637 silly resolveWithNewModule semver@7.0.0 checking installable status
+638 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx 478ms (from cache)
+639 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-development 497ms (from cache)
+640 silly pacote range manifest for @babel/plugin-transform-react-jsx@^7.10.4 fetched in 530ms
+641 silly resolveWithNewModule @babel/plugin-transform-react-jsx@7.10.4 checking installable status
+642 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-source 567ms (from cache)
+643 silly fetchPackageMetaData error for @babel/plugin-transform-react-jsx-source@^7.10.4 Unexpected end of JSON input while parsing near '...W5c\nEbYNAtsRIIIcGMBN'
+644 silly pacote range manifest for @babel/plugin-transform-react-jsx-development@^7.10.4 fetched in 578ms
+645 silly resolveWithNewModule @babel/plugin-transform-react-jsx-development@7.10.4 checking installable status
+646 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-pure-annotations 692ms (from cache)
+647 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-display-name 735ms (from cache)
+648 silly pacote range manifest for @babel/plugin-transform-react-pure-annotations@^7.10.4 fetched in 757ms
+649 silly resolveWithNewModule @babel/plugin-transform-react-pure-annotations@7.10.4 checking installable status
+650 silly pacote range manifest for @babel/plugin-transform-react-display-name@^7.10.4 fetched in 777ms
+651 silly resolveWithNewModule @babel/plugin-transform-react-display-name@7.10.4 checking installable status
+652 http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-self 802ms (from cache)
+653 silly pacote range manifest for @babel/plugin-transform-react-jsx-self@^7.10.4 fetched in 834ms
+654 silly resolveWithNewModule @babel/plugin-transform-react-jsx-self@7.10.4 checking installable status
+655 timing stage:rollbackFailedOptional Completed in 3ms
+656 timing stage:runTopLevelLifecycles Completed in 53532ms
+657 silly saveTree frontend@0.1.0
+657 silly saveTree +-- cra-template-typescript@1.0.3
+657 silly saveTree +-- react-dom@16.13.1
+657 silly saveTree | +-- loose-envify@1.4.0
+657 silly saveTree | | `-- js-tokens@4.0.0
+657 silly saveTree | +-- object-assign@4.1.1
+657 silly saveTree | +-- prop-types@15.7.2
+657 silly saveTree | | `-- react-is@16.13.1
+657 silly saveTree | `-- scheduler@0.19.1
+657 silly saveTree +-- react-scripts@3.4.1
+657 silly saveTree | +-- @babel/core@7.9.0
+657 silly saveTree | | +-- @babel/code-frame@7.10.4
+657 silly saveTree | | | `-- @babel/highlight@7.10.4
+657 silly saveTree | | |   +-- @babel/helper-validator-identifier@7.10.4
+657 silly saveTree | | |   `-- chalk@2.4.2
+657 silly saveTree | | |     +-- ansi-styles@3.2.1
+657 silly saveTree | | |     | `-- color-convert@1.9.3
+657 silly saveTree | | |     |   `-- color-name@1.1.3
+657 silly saveTree | | |     +-- escape-string-regexp@1.0.5
+657 silly saveTree | | |     `-- supports-color@5.5.0
+657 silly saveTree | | |       `-- has-flag@3.0.0
+657 silly saveTree | | +-- @babel/generator@7.10.5
+657 silly saveTree | | | +-- @babel/types@7.10.5
+657 silly saveTree | | | | +-- lodash@4.17.19
+657 silly saveTree | | | | `-- to-fast-properties@2.0.0
+657 silly saveTree | | | +-- jsesc@2.5.2
+657 silly saveTree | | | `-- source-map@0.5.7
+657 silly saveTree | | +-- @babel/helper-module-transforms@7.10.5
+657 silly saveTree | | | +-- @babel/helper-module-imports@7.10.4
+657 silly saveTree | | | +-- @babel/helper-replace-supers@7.10.4
+657 silly saveTree | | | | +-- @babel/helper-member-expression-to-functions@7.10.5
+657 silly saveTree | | | | +-- @babel/helper-optimise-call-expression@7.10.4
+657 silly saveTree | | | | `-- @babel/traverse@7.10.5
+657 silly saveTree | | | |   +-- @babel/helper-function-name@7.10.4
+657 silly saveTree | | | |   | +-- @babel/helper-get-function-arity@7.10.4
+657 silly saveTree | | | |   | `-- @babel/template@7.10.4
+657 silly saveTree | | | |   |   `-- @babel/parser@7.10.5
+657 silly saveTree | | | |   +-- @babel/helper-split-export-declaration@7.10.4
+657 silly saveTree | | | |   +-- @babel/parser@7.10.5
+657 silly saveTree | | | |   +-- debug@4.1.1
+657 silly saveTree | | | |   | `-- ms@2.1.2
+657 silly saveTree | | | |   `-- globals@11.12.0
+657 silly saveTree | | | +-- @babel/helper-simple-access@7.10.4
+657 silly saveTree | | | +-- @babel/helper-split-export-declaration@7.10.4
+657 silly saveTree | | | `-- @babel/template@7.10.4
+657 silly saveTree | | +-- @babel/helpers@7.10.4
+657 silly saveTree | | +-- @babel/parser@7.10.5
+657 silly saveTree | | +-- @babel/template@7.10.4
+657 silly saveTree | | +-- @babel/traverse@7.10.5
+657 silly saveTree | | +-- @babel/types@7.10.5
+657 silly saveTree | | +-- convert-source-map@1.7.0
+657 silly saveTree | | | `-- safe-buffer@5.1.2
+657 silly saveTree | | +-- debug@4.1.1
+657 silly saveTree | | +-- gensync@1.0.0-beta.1
+657 silly saveTree | | +-- json5@2.1.3
+657 silly saveTree | | | `-- minimist@1.2.5
+657 silly saveTree | | +-- lodash@4.17.19
+657 silly saveTree | | +-- resolve@1.15.0
+657 silly saveTree | | | `-- path-parse@1.0.6
+657 silly saveTree | | +-- semver@5.7.1
+657 silly saveTree | | `-- source-map@0.5.7
+657 silly saveTree | +-- @svgr/webpack@4.3.3
+657 silly saveTree | | +-- @babel/plugin-transform-react-constant-elements@7.10.4
+657 silly saveTree | | | `-- @babel/helper-plugin-utils@7.10.4
+657 silly saveTree | | +-- @babel/preset-env@7.10.4
+657 silly saveTree | | | +-- @babel/compat-data@7.10.5
+657 silly saveTree | | | | +-- browserslist@4.13.0
+657 silly saveTree | | | | | +-- caniuse-lite@1.0.30001105
+657 silly saveTree | | | | | +-- electron-to-chromium@1.3.504
+657 silly saveTree | | | | | +-- escalade@3.0.2
+657 silly saveTree | | | | | `-- node-releases@1.1.59
+657 silly saveTree | | | | +-- invariant@2.2.4
+657 silly saveTree | | | | `-- semver@5.7.1
+657 silly saveTree | | | +-- @babel/helper-compilation-targets@7.10.4
+657 silly saveTree | | | | +-- levenary@1.1.1
+657 silly saveTree | | | | | `-- leven@3.1.0
+657 silly saveTree | | | | `-- semver@5.7.1
+657 silly saveTree | | | +-- @babel/plugin-proposal-async-generator-functions@7.10.5
+657 silly saveTree | | | | +-- @babel/helper-remap-async-to-generator@7.10.4
+657 silly saveTree | | | | | +-- @babel/helper-annotate-as-pure@7.10.4
+657 silly saveTree | | | | | `-- @babel/helper-wrap-function@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-async-generators@7.8.4
+657 silly saveTree | | | +-- @babel/plugin-proposal-class-properties@7.10.4
+657 silly saveTree | | | | `-- @babel/helper-create-class-features-plugin@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-proposal-dynamic-import@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-dynamic-import@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-proposal-json-strings@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-json-strings@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-proposal-nullish-coalescing-operator@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-proposal-numeric-separator@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-numeric-separator@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-proposal-object-rest-spread@7.10.4
+657 silly saveTree | | | | +-- @babel/plugin-syntax-object-rest-spread@7.8.3
+657 silly saveTree | | | | `-- @babel/plugin-transform-parameters@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-proposal-optional-catch-binding@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-optional-catch-binding@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-proposal-optional-chaining@7.10.4
+657 silly saveTree | | | | `-- @babel/plugin-syntax-optional-chaining@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-proposal-private-methods@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-proposal-unicode-property-regex@7.10.4
+657 silly saveTree | | | | `-- @babel/helper-create-regexp-features-plugin@7.10.4
+657 silly saveTree | | | |   +-- @babel/helper-regex@7.10.5
+657 silly saveTree | | | |   `-- regexpu-core@4.7.0
+657 silly saveTree | | | |     +-- regenerate-unicode-properties@8.2.0
+657 silly saveTree | | | |     | `-- regenerate@1.4.1
+657 silly saveTree | | | |     +-- regenerate@1.4.1
+657 silly saveTree | | | |     +-- regjsgen@0.5.2
+657 silly saveTree | | | |     +-- regjsparser@0.6.4
+657 silly saveTree | | | |     | `-- jsesc@0.5.0
+657 silly saveTree | | | |     +-- unicode-match-property-ecmascript@1.0.4
+657 silly saveTree | | | |     | +-- unicode-canonical-property-names-ecmascript@1.0.4
+657 silly saveTree | | | |     | `-- unicode-property-aliases-ecmascript@1.1.0
+657 silly saveTree | | | |     `-- unicode-match-property-value-ecmascript@1.2.0
+657 silly saveTree | | | +-- @babel/plugin-syntax-async-generators@7.8.4
+657 silly saveTree | | | +-- @babel/plugin-syntax-class-properties@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-syntax-dynamic-import@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-json-strings@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-numeric-separator@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-syntax-object-rest-spread@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-optional-catch-binding@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-optional-chaining@7.8.3
+657 silly saveTree | | | +-- @babel/plugin-syntax-top-level-await@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-arrow-functions@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-async-to-generator@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-block-scoped-functions@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-block-scoping@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-transform-classes@7.10.4
+657 silly saveTree | | | | `-- @babel/helper-define-map@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-transform-computed-properties@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-destructuring@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-dotall-regex@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-duplicate-keys@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-exponentiation-operator@7.10.4
+657 silly saveTree | | | | `-- @babel/helper-builder-binary-assignment-operator-visitor@7.10.4
+657 silly saveTree | | | |   `-- @babel/helper-explode-assignable-expression@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-for-of@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-function-name@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-literals@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-member-expression-literals@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-modules-amd@7.10.5
+657 silly saveTree | | | | `-- babel-plugin-dynamic-import-node@2.3.3
+657 silly saveTree | | | |   `-- object.assign@4.1.0
+657 silly saveTree | | | |     +-- define-properties@1.1.3
+657 silly saveTree | | | |     | `-- object-keys@1.1.1
+657 silly saveTree | | | |     +-- function-bind@1.1.1
+657 silly saveTree | | | |     +-- has-symbols@1.0.1
+657 silly saveTree | | | |     `-- object-keys@1.1.1
+657 silly saveTree | | | +-- @babel/plugin-transform-modules-commonjs@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-modules-systemjs@7.10.5
+657 silly saveTree | | | | `-- @babel/helper-hoist-variables@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-modules-umd@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-named-capturing-groups-regex@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-new-target@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-object-super@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-parameters@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-transform-property-literals@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-regenerator@7.10.4
+657 silly saveTree | | | | `-- regenerator-transform@0.14.5
+657 silly saveTree | | | |   `-- @babel/runtime@7.10.5
+657 silly saveTree | | | |     `-- regenerator-runtime@0.13.6
+657 silly saveTree | | | +-- @babel/plugin-transform-reserved-words@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-shorthand-properties@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-spread@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-sticky-regex@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-template-literals@7.10.5
+657 silly saveTree | | | +-- @babel/plugin-transform-typeof-symbol@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-unicode-escapes@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-unicode-regex@7.10.4
+657 silly saveTree | | | +-- @babel/preset-modules@0.1.3
+657 silly saveTree | | | | `-- esutils@2.0.3
+657 silly saveTree | | | +-- browserslist@4.13.0
+657 silly saveTree | | | +-- core-js-compat@3.6.5
+657 silly saveTree | | | | `-- semver@7.0.0
+657 silly saveTree | | | +-- invariant@2.2.4
+657 silly saveTree | | | +-- levenary@1.1.1
+657 silly saveTree | | | `-- semver@5.7.1
+657 silly saveTree | | +-- @babel/preset-react@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-react-display-name@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-react-jsx-development@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-react-jsx-self@7.10.4
+657 silly saveTree | | | +-- @babel/plugin-transform-react-jsx@7.10.4
+657 silly saveTree | | | `-- @babel/plugin-transform-react-pure-annotations@7.10.4
+657 silly saveTree | | +-- @svgr/core@4.3.3
+657 silly saveTree | | | +-- @svgr/plugin-jsx@4.3.3
+657 silly saveTree | | | `-- camelcase@5.3.1
+657 silly saveTree | | +-- @svgr/plugin-jsx@4.3.3
+657 silly saveTree | | +-- @svgr/plugin-svgo@4.3.1
+657 silly saveTree | | `-- loader-utils@1.4.0
+657 silly saveTree | +-- @typescript-eslint/eslint-plugin@2.34.0
+657 silly saveTree | +-- @typescript-eslint/parser@2.34.0
+657 silly saveTree | +-- babel-eslint@10.1.0
+657 silly saveTree | +-- babel-jest@24.9.0
+657 silly saveTree | +-- babel-loader@8.1.0
+657 silly saveTree | +-- babel-plugin-named-asset-import@0.3.6
+657 silly saveTree | +-- babel-preset-react-app@9.1.2
+657 silly saveTree | +-- camelcase@5.3.1
+657 silly saveTree | +-- case-sensitive-paths-webpack-plugin@2.3.0
+657 silly saveTree | +-- css-loader@3.4.2
+657 silly saveTree | +-- dotenv-expand@5.1.0
+657 silly saveTree | +-- dotenv@8.2.0
+657 silly saveTree | +-- eslint-config-react-app@5.2.1
+657 silly saveTree | +-- eslint-loader@3.0.3
+657 silly saveTree | | `-- fs-extra@8.1.0
+657 silly saveTree | +-- eslint-plugin-flowtype@4.6.0
+657 silly saveTree | +-- eslint-plugin-import@2.20.1
+657 silly saveTree | +-- eslint-plugin-jsx-a11y@6.2.3
+657 silly saveTree | +-- eslint-plugin-react-hooks@1.7.0
+657 silly saveTree | +-- eslint-plugin-react@7.19.0
+657 silly saveTree | | `-- semver@6.3.0
+657 silly saveTree | +-- eslint@6.8.0
+657 silly saveTree | +-- file-loader@4.3.0
+657 silly saveTree | +-- fs-extra@8.1.0
+657 silly saveTree | +-- fsevents@2.1.2
+657 silly saveTree | +-- html-webpack-plugin@4.0.0-beta.11
+657 silly saveTree | +-- identity-obj-proxy@3.0.0
+657 silly saveTree | +-- jest-environment-jsdom-fourteen@1.0.1
+657 silly saveTree | +-- jest-resolve@24.9.0
+657 silly saveTree | +-- jest-watch-typeahead@0.4.2
+657 silly saveTree | +-- jest@24.9.0
+657 silly saveTree | +-- mini-css-extract-plugin@0.9.0
+657 silly saveTree | +-- optimize-css-assets-webpack-plugin@5.0.3
+657 silly saveTree | +-- pnp-webpack-plugin@1.6.4
+657 silly saveTree | | `-- ts-pnp@1.1.6
+657 silly saveTree | +-- postcss-flexbugs-fixes@4.1.0
+657 silly saveTree | +-- postcss-loader@3.0.0
+657 silly saveTree | +-- postcss-normalize@8.0.1
+657 silly saveTree | +-- postcss-preset-env@6.7.0
+657 silly saveTree | +-- postcss-safe-parser@4.0.1
+657 silly saveTree | +-- react-app-polyfill@1.0.6
+657 silly saveTree | +-- react-dev-utils@10.2.1
+657 silly saveTree | +-- resolve-url-loader@3.1.1
+657 silly saveTree | +-- resolve@1.15.0
+657 silly saveTree | +-- sass-loader@8.0.2
+657 silly saveTree | +-- semver@6.3.0
+657 silly saveTree | +-- style-loader@0.23.1
+657 silly saveTree | +-- terser-webpack-plugin@2.3.5
+657 silly saveTree | +-- ts-pnp@1.1.6
+657 silly saveTree | +-- url-loader@2.3.0
+657 silly saveTree | +-- webpack-dev-server@3.10.3
+657 silly saveTree | +-- webpack-manifest-plugin@2.2.0
+657 silly saveTree | +-- webpack@4.42.0
+657 silly saveTree | `-- workbox-webpack-plugin@4.3.1
+657 silly saveTree `-- react@16.13.1
+658 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/react-scripts/node_modules/fsevents):
+659 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+660 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+660 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+660 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+660 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+661 verbose stack SyntaxError: Unexpected end of JSON input while parsing near '...W5c\nEbYNAtsRIIIcGMBN'
+661 verbose stack     at JSON.parse (<anonymous>)
+661 verbose stack     at parseJson (/usr/lib/node_modules/npm/node_modules/json-parse-better-errors/index.js:7:17)
+661 verbose stack     at consumeBody.call.then.buffer (/usr/lib/node_modules/npm/node_modules/node-fetch-npm/src/body.js:96:50)
+661 verbose stack     at process._tickCallback (internal/process/next_tick.js:68:7)
+662 verbose cwd /var/www/frontend
+663 verbose Linux 4.19.76-linuxkit
+664 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "--save-exact" "--loglevel" "error" "react" "react-dom" "react-scripts" "cra-template-typescript"
+665 verbose node v10.19.0
+666 verbose npm  v6.13.4
+667 error Unexpected end of JSON input while parsing near '...W5c\nEbYNAtsRIIIcGMBN'
+668 verbose exit [ 1, true ]

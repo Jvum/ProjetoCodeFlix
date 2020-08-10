@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@6.13.4
+3 info using node@v10.19.0
+4 verbose npm-session 0522ce2f12bdf2e5
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall frontend@0.1.0
+7 info lifecycle frontend@0.1.0~preinstall: frontend@0.1.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 178381ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 54ms
+14 silly install loadShrinkwrap
+15 timing stage:rollbackFailedOptional Completed in 1ms
+16 timing stage:runTopLevelLifecycles Completed in 178788ms
+17 silly saveTree frontend@0.1.0
+18 verbose stack TypeError: Cannot read property 'match' of undefined
+18 verbose stack     at tarballToVersion (/usr/lib/node_modules/npm/lib/install/inflate-shrinkwrap.js:87:20)
+18 verbose stack     at inflatableChild (/usr/lib/node_modules/npm/lib/install/inflate-shrinkwrap.js:99:22)
+18 verbose stack     at BB.each (/usr/lib/node_modules/npm/lib/install/inflate-shrinkwrap.js:55:12)
+18 verbose stack     at tryCatcher (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+18 verbose stack     at Object.gotValue (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/reduce.js:155:18)
+18 verbose stack     at Object.gotAccum (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/reduce.js:144:25)
+18 verbose stack     at Object.tryCatcher (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+18 verbose stack     at Promise._settlePromiseFromHandler (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+18 verbose stack     at Promise._settlePromise (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+18 verbose stack     at Promise._settlePromiseCtx (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:611:10)
+18 verbose stack     at _drainQueueStep (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:142:12)
+18 verbose stack     at _drainQueue (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+18 verbose stack     at Async._drainQueues (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+18 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+18 verbose stack     at runCallback (timers.js:705:18)
+18 verbose stack     at tryOnImmediate (timers.js:676:5)
+19 verbose cwd /var/www/frontend
+20 verbose Linux 4.19.76-linuxkit
+21 verbose argv "/usr/bin/node" "/usr/bin/npm" "install"
+22 verbose node v10.19.0
+23 verbose npm  v6.13.4
+24 error Cannot read property 'match' of undefined
+25 verbose exit [ 1, true ]
