@@ -29,12 +29,18 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
+const listRoutes = {
+  'dashboard': 'Dashboard',
+  'categories.list': 'Categories',
+  'cast_members.list': 'Membros de Elenco',
+  'genres.list': 'Generos'
+}
+
+const menuRoutes = routes.filter(route => Object.keys(listRoutes).includes(route.name));
+
 export const Menu: React.FC = () => {
   const classes = useStyles();
-
-  const listRoutes = ["dashboard", "categories.list", "cast_members.list", "genres.list"];
-  const menuRoutes = routes.filter((route) => listRoutes.includes(route.name));
-  const [anchorEl, setAnchorEl] = React.useState(null);
+const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
 
   const handleOpen = (event: any) => setAnchorEl(event.currentTarget);
@@ -62,7 +68,7 @@ export const Menu: React.FC = () => {
         id="menu-appbar"
       >
         {
-        listRoutes.map(
+        Object.keys(listRoutes).map(
             (routeName, key) => {
           const route = menuRoutes.find((route) => route.name === routeName) as MyRouteProps;
           return (
